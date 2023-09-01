@@ -1,0 +1,17 @@
+<h2 mat-dialog-title class="title">GAME OVER</h2>
+
+<mat-dialog-content class="mat-typography">
+  <p><span class="label">Winner</span>: {{ possibleWinners[winner] }}</p>
+  <p>
+    <span
+      >Computer - <span class="score">{{ score.computer }}</span>
+    </span>
+    :
+    <span
+      >Player - <span class="score">{{ score.player }}</span>
+    </span>
+  </p>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

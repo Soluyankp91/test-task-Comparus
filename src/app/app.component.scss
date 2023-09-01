@@ -1,0 +1,36 @@
+.row {
+    display: flex;
+    gap: 5px;
+}
+.rows {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+}
+.panel {
+    display: flex;
+    gap: 10px;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+.rows-score {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.score-panel {
+    font-size: 16px;
+}
+.score {
+    font-size: 18px;
+    font-weight: 500;
+}
