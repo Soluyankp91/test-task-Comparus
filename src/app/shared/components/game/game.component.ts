@@ -133,10 +133,7 @@ export class GameComponent implements OnInit {
   }
 
   clickEmitted(rowIndex: number, columnIndex: number) {
-    if (
-      this.items[rowIndex][columnIndex].click$ &&
-      this.items[rowIndex][columnIndex].click$ instanceof Subject
-    ) {
+    if (this.items[rowIndex][columnIndex].click$) {
       this.items[rowIndex][columnIndex].click$!.next();
     }
   }
