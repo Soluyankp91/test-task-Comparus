@@ -8,6 +8,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDialogModule } from '@angular/material/dialog';
 import { CellComponent } from './components/cell/cell.component';
 import { DialogComponent } from './components/dialog/dialog.component';
+import { GameComponent } from './components/game/game.component';
 
 const MATERIAL_MODULES = [
   MatButtonModule,
@@ -17,7 +18,7 @@ const MATERIAL_MODULES = [
 ];
 
 @NgModule({
-  declarations: [CellComponent, DialogComponent],
+  declarations: [CellComponent, DialogComponent, GameComponent],
   imports: [
     CommonModule,
     BrowserAnimationsModule,
