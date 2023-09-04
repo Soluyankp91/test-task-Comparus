@@ -125,7 +125,7 @@ export class GameComponent implements OnInit {
       this.millisecondsControl.markAsTouched();
       return;
     }
-    this.milliseconds = this.millisecondsControl.value as any;
+    this.milliseconds = this.millisecondsControl.value as number;
     this.score = { computer: 0, player: 0 };
 
     this.cancelSignal$.next();
